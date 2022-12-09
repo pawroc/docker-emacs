@@ -1,5 +1,11 @@
 #### Dockerized Emacs with GUI(Mac, Windows, GNU/Linux and your browser)
 
+##### Build & run Doomemacs container
+
+  - Go to the repository directory
+  - Build with: `docker build --force-rm --rm --tag doomemacs:doomemacs -f Dockerfile.doomemacs .`
+  - Run container: `docker run -it --rm doomemacs:doomemacs`
+
 ##### *Images are clickable*
 
 [![http://i.imgur.com/rONW3c3.jpg](http://i.imgur.com/B1gvpmK.jpg)](http://i.imgur.com/rONW3c3.jpg)
